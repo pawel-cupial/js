@@ -1,0 +1,11 @@
+#1
+- Czym w ogóle jest obiekt Window (wystarczy przeczytać wstęp -> 3 akapity + przejrzeć jakie własności posiada)
+  https://developer.mozilla.org/pl/docs/Web/API/Window
+
+- Manipulacja DOMem (tutaj po prostu wybrałem 2 z popularniejszych artykułów). UWAGA: pojawia sie w przykładach nowa składnia JS 
+  (na ten moment używamy starej)
+  https://www.hongkiat.com/blog/dom-manipulation-javascript-methods/
+  https://www.theodinproject.com/courses/foundations/lessons/dom-manipulation
+
+- Informacje o "use strict" 
+  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode
