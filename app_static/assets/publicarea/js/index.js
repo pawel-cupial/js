@@ -5,18 +5,16 @@ var $firstFromTest = $test.first();
 
 $test
     .addClass('container')
-    //.append('<p style="background: red; color: white">To jest dodany akapit</p>')
-    // .attr('title', 'Ustawiony title w skrypcie')
-    // .click(function() {
-    //     console.log(this);
-    //     console.log('test click()');
-    // })
-    // .dblclick(function() {
-    //     alert('test dblclick()');
-    // });
+    .append('<p style="background: red; color: white">To jest dodany akapit</p>')
+    .attr('title', 'Ustawiony title w skrypcie')
+    .click(function() {
+        console.log(this);
+        console.log('test click()');
+    })
+    .dblclick(function() {
+        alert('test dblclick()');
+    });
 
-$test.append('<p style="background: red; color: white">To jest dodany akapit</p>')
-$test.attr('title', 'Ustawiony title w skrypcie')
 
 console.log($test);
 console.log('Wartość atrybutu ID: ' + $test.attr('id'));
